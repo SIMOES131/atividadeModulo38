@@ -12,7 +12,7 @@
             <!-- Configurações específicas para o Hibernate -->
             <property name="jakarta.persistence.schema-generation.database.action" value="update"/>
             <property name="jakarta.persistence.jdbc.driver" value="org.postgresql.Driver"/>
-            <property name="jakarta.persistence.jdbc.url" value="jdbc:postgresql://localhost:5432/seubanco"/>
+            <property name="jakarta.persistence.jdbc.url" value="jdbc:postgresql://localhost:5432/meubanco"/>
             <property name="jakarta.persistence.jdbc.user" value="seuusuario"/>
             <property name="jakarta.persistence.jdbc.password" value="suasenha"/>
             <property name="hibernate.dialect" value="org.hibernate.dialect.PostgreSQLDialect"/>
