@@ -44,7 +44,7 @@ public class UsuarioController {
                 service.cadastrarUsuario(usuario);
                 return "sucesso?faces-redirect=true";
             } catch (Exception e) {
-                // Tratar erro
+               
                 return null;
             }
         }

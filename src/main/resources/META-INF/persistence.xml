@@ -9,7 +9,7 @@
         <jta-data-source>java:jboss/datasources/DefaultDS</jta-data-source>
 
         <properties>
-            <!-- Configurações específicas para o Hibernate -->
+           
             <property name="jakarta.persistence.schema-generation.database.action" value="update"/>
             <property name="jakarta.persistence.jdbc.driver" value="org.postgresql.Driver"/>
             <property name="jakarta.persistence.jdbc.url" value="jdbc:postgresql://localhost:5432/meubanco"/>
